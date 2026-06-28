@@ -37,7 +37,7 @@ export default function App() {
       <header className="topbar">
         <div className="topbar-brand">
           <div className="brand-dot" />
-          Fleet Tracker
+          Family Garage
         </div>
         <button className="btn-ghost btn-sm" onClick={() => { logout(); setAuthed(false) }}>
           Sign out

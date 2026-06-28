@@ -20,7 +20,7 @@ export default function Login({ onAuth }) {
       <div className="login-card">
         <div className="login-title">
           <span style={{ color: 'var(--accent)', fontSize: 22 }}>⬡</span>
-          Fleet Tracker
+          Family Garage
         </div>
         <p className="login-sub">Family vehicle maintenance log</p>
         <form onSubmit={handleSubmit}>
