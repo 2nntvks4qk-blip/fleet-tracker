@@ -1,0 +1,26 @@
+<svg width="120" height="120" viewBox="0 0 120 120" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Family Garage</title>
+  <desc>Family Garage logo — house with garage door</desc>
+
+  <!-- House walls -->
+  <rect x="10" y="54" width="100" height="60" rx="3" fill="#f97316"/>
+
+  <!-- Roof -->
+  <polygon points="60,6 112,54 8,54" fill="#ea6c04"/>
+  <polygon points="60,6 112,54 60,54" fill="#c2580a" opacity="0.25"/>
+
+  <!-- Chimney -->
+  <rect x="80" y="18" width="10" height="22" rx="2" fill="#c2580a"/>
+  <rect x="78" y="15" width="14" height="6" rx="2" fill="#ea6c04"/>
+
+  <!-- Garage door -->
+  <rect x="18" y="60" width="84" height="52" rx="3" fill="#1e293b"/>
+
+  <!-- Door panels -->
+  <rect x="24" y="65" width="72" height="13" rx="2" fill="#263348"/>
+  <rect x="24" y="81" width="72" height="13" rx="2" fill="#263348"/>
+  <rect x="24" y="97" width="72" height="12" rx="2" fill="#263348"/>
+
+  <!-- Door handle -->
+  <rect x="52" y="106" width="16" height="4" rx="2" fill="#f97316" opacity="0.5"/>
+</svg>

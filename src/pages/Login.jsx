@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { checkPassword } from '../lib/supabase'
+import logo from '../logo.svg'
 
 export default function Login({ onAuth }) {
   const [pw, setPw] = useState('')
@@ -19,7 +20,7 @@ export default function Login({ onAuth }) {
     <div className="login-wrap">
       <div className="login-card">
         <div className="login-title">
-          <span style={{ color: 'var(--accent)', fontSize: 22 }}>⬡</span>
+          <img src={logo} alt="Family Garage" style={{ width: 36, height: 36 }} />
           Family Garage
         </div>
         <p className="login-sub">Family vehicle maintenance log</p>

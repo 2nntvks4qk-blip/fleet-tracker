@@ -4,6 +4,7 @@ import Login from './pages/Login'
 import Vehicles from './pages/Vehicles'
 import ServiceLog from './pages/ServiceLog'
 import Reminders from './pages/Reminders'
+import logo from './logo.svg'
 
 const TABS = ['vehicles', 'log', 'reminders']
 const TAB_LABELS = { vehicles: 'Vehicles', log: 'Service log', reminders: 'Reminders' }
@@ -36,7 +37,7 @@ export default function App() {
     <div className="app-shell">
       <header className="topbar">
         <div className="topbar-brand">
-          <div className="brand-dot" />
+          <img src={logo} alt="Family Garage" style={{ width: 28, height: 28 }} />
           Family Garage
         </div>
         <button className="btn-ghost btn-sm" onClick={() => { logout(); setAuthed(false) }}>
